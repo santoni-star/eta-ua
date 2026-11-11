@@ -25,10 +25,13 @@ class LocaleResourcesTest {
         assertEquals("設定", localizedString("zh-HK", R.string.route_settings))
         assertEquals("昨日", localizedString("zh-TW", R.string.time_yesterday))
         assertEquals("Settings", localizedString("fr-FR", R.string.route_settings))
+        assertEquals("Налаштування", localizedString("uk-UA", R.string.route_settings))
+        assertEquals("Налаштування", localizedString("uk", R.string.route_settings))
         assertEquals("Appearance & Theme", localizedString("en-US", R.string.appearance_title))
         assertEquals("外观与主题", localizedString("zh-CN", R.string.appearance_title))
         assertEquals("外觀與主題", localizedString("zh-TW", R.string.appearance_title))
         assertEquals("Appearance & Theme", localizedString("fr-FR", R.string.appearance_title))
+        assertEquals("Вигляд і тема", localizedString("uk-UA", R.string.appearance_title))
         assertEquals("1 model", localizedQuantity("en-US", R.plurals.provider_models_count, 1))
         assertEquals("2 models", localizedQuantity("en-US", R.plurals.provider_models_count, 2))
     }
@@ -39,6 +42,7 @@ class LocaleResourcesTest {
         assertEquals("当前设备", localizedString("zh-CN", R.string.capability_current_device))
         assertEquals("目前裝置", localizedString("zh-TW", R.string.capability_current_device))
         assertEquals("Current device", localizedString("fr-FR", R.string.capability_current_device))
+        assertEquals("Поточний пристрій", localizedString("uk-UA", R.string.capability_current_device))
         assertEquals("Eta is running", localizedString("en-US", R.string.execution_title))
         assertEquals("Eta 正在运行", localizedString("zh-CN", R.string.execution_title))
         assertEquals("Eta 正在執行", localizedString("zh-TW", R.string.execution_title))
@@ -67,7 +71,7 @@ class LocaleResourcesTest {
             "已匯入 2 個檔案，其餘檔案無法讀取或超過 32 MiB",
             localizedQuantity("zh-TW", R.plurals.capability_workspace_partial_import, 2),
         )
-        for (locale in listOf("en-US", "zh-CN", "zh-TW", "fr-FR")) {
+        for (locale in listOf("en-US", "zh-CN", "zh-TW", "fr-FR", "uk-UA")) {
             assertEquals("Skills", localizedString(locale, R.string.route_skills))
             assertEquals("API Key", localizedString(locale, R.string.speech_api_key))
         }
