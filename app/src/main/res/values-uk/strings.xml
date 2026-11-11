@@ -195,7 +195,7 @@
     <string name="appearance_predictive_back">Прогнозований жест повернення</string>
     <string name="appearance_predictive_back_summary">Увімкнути анімації прогнозованого повернення</string>
     <string name="appearance_interface_scale">Масштаб інтерфейсу</string>
-    <string name="appearance_interface_scale_summary">Змінити загальний масштаб відображення (80%–110%)</string>
+    <string name="appearance_interface_scale_summary">Змінити загальний масштаб відображення (80%%–110%%)</string>
     <string name="appearance_interface_scale_dialog_title">Масштаб інтерфейсу</string>
     <string name="appearance_interface_scale_dialog_summary">Введіть ціле число від 80 до 110</string>
     <string name="appearance_interface_scale_input_label">Відсоток</string>

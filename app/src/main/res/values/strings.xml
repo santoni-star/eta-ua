@@ -195,7 +195,7 @@
     <string name="appearance_predictive_back">Predictive back gesture</string>
     <string name="appearance_predictive_back_summary">Enable predictive back animations</string>
     <string name="appearance_interface_scale">Interface scale</string>
-    <string name="appearance_interface_scale_summary">Adjust the global display scale (80%–110%)</string>
+    <string name="appearance_interface_scale_summary">Adjust the global display scale (80%%–110%%)</string>
     <string name="appearance_interface_scale_dialog_title">Interface scale</string>
     <string name="appearance_interface_scale_dialog_summary">Enter an integer from 80 to 110</string>
     <string name="appearance_interface_scale_input_label">Percentage</string>
@@ -1222,7 +1222,7 @@
     <string name="context_compaction">Context compaction</string>
     <string name="context_compact_action">Compact context</string>
     <string name="settings_auto_compaction">Automatic context compaction</string>
-    <string name="voice_audio_permission">Allow microphone access in Eta's app permissions, then wake it again; tap the microphone to open settings</string>
+    <string name="voice_audio_permission">Allow microphone access in Eta\'s app permissions, then wake it again; tap the microphone to open settings</string>
     <string name="voice_use_keyboard">Switch to keyboard input</string>
     <string name="voice_finish_speech">Finish recording and send</string>
     <string name="voice_recognizing">Recognizing...</string>
@@ -1394,7 +1394,7 @@
     <string name="speech_gemini_voice_note">Voices work for Chinese and other supported languages. For speaking style you can enter "natural, gentle, slightly slower"; leave it blank to use the default. You can also enter a voice ID from your account.</string>
     <string name="speech_minimax_voice_note">Preset to a Mandarin voice; you can also enter a system or custom voice ID from your account.</string>
     <string name="speech_preview_text">Preview text (up to 500 characters)</string>
-    <string name="speech_preview_default_text">Hello, I'm Eta. There is a meeting at half past three this afternoon, expected to last 45 minutes. We can also chat in Ukrainian about Android and AI.</string>
+    <string name="speech_preview_default_text">Hello, I\'m Eta. There is a meeting at half past three this afternoon, expected to last 45 minutes. We can also chat in Ukrainian about Android and AI.</string>
     <string name="speech_voice_gemini_kore">Kore</string>
     <string name="speech_voice_gemini_puck">Puck</string>
     <string name="speech_voice_gemini_charon">Charon</string>
@@ -1421,7 +1421,7 @@
     <string name="speech_voice_minimax_news">News anchor female</string>
     <string name="speech_recognition_enabled">Enable speech recognition</string>
     <string name="speech_recognition_disabled">Turned off</string>
-    <string name="speech_recognition_disabled_note">Hides the microphone entry points in chat and the assistant overlay after saving. Global wake-up will open text input and the keyboard after the entrance animation, so you can use your input method's own voice input. The original service configuration is kept.</string>
+    <string name="speech_recognition_disabled_note">Hides the microphone entry points in chat and the assistant overlay after saving. Global wake-up will open text input and the keyboard after the entrance animation, so you can use your input method\'s own voice input. The original service configuration is kept.</string>
     <string name="web_tools_settings_title">Web search &amp; reading</string>
     <string name="web_tools_configure_action">Configure service</string>
     <string name="web_tools_group_service">Service</string>
@@ -1433,7 +1433,7 @@
     <string name="web_tools_overview_builtin_note">The built-in option works out of the box with no setup; switching to DeepSeek or a custom endpoint gives better search quality and Markdown text extraction.</string>
     <string name="web_tools_overview_remote_note">If remote page reading fails, it falls back to local static fetching; paging through the same page reuses the current run cache instead of requesting again.</string>
     <string name="web_tools_deepseek_linked_note">The API Key of the DeepSeek model provider is linked automatically; you can also enter a separate key here to override it.</string>
-    <string name="web_tools_deepseek_note">Calls the DeepSeek /v1/tools/search and /v1/tools/fetch endpoints; when left blank it tries to reuse the DeepSeek model provider's key.</string>
+    <string name="web_tools_deepseek_note">Calls the DeepSeek /v1/tools/search and /v1/tools/fetch endpoints; when left blank it tries to reuse the DeepSeek model provider\'s key.</string>
     <string name="web_tools_group_custom_search">Custom search</string>
     <string name="web_tools_group_custom_fetch">Custom reading</string>
     <string name="web_tools_http_method">HTTP method</string>
