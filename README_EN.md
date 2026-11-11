@@ -1,6 +1,6 @@
 <h1 align="center">Eta</h1>
 
-<p align="center"><a href="README.md">简体中文</a> | <strong>English</strong></p>
+<p align="center"><a href="README.md">简体中文</a> | <strong>English</strong> | <a href="README_UK.md">Українська</a></p>
 
 <p align="center"><strong>A third-party, system-level AI assistant for Android</strong></p>
 
